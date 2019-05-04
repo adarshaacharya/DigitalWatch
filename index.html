@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Clock</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!--Fonts Section-->
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+
+   
+    <!--Nomralise CSS -->
+    <link rel="stylesheet" type="text/css" href="vendor/normalize.css">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.min.css">
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="./vendor/bootstrap.min.css">
+
+    <!--Style css-->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+
+    <!--Media Query -->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+</head>
+
+<body>
+
+
+    <div id="main-page" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <div class="display-text">
+                        <h1>CURRENT TIME :</h1>
+                    </div>
+                    <div id="display-time"></div>
+
+                  <blink>
+                    <div id="display-date"></div>
+                  </blink> 
+                </div>
+            </div>
+        </div>
+        <a href="stopwatch.html" data-slide="next" class="carousel-control-next">
+            <span class="carousel-icon carousel-control-next-icon"></span>
+          </a>
+       
+          <a href="stopwatch.html" data-slide="prev" class="carousel-control-prev">
+                <span class="carousel-icon carousel-control-prev-icon"></span>
+              </a>
+
+    </div>
+
+
+    <!--Footer-->
+    <footer id="main-footer" class="py-3 bg-primary text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    Copyright &copy; <span id="year"></span> <br>
+                    Developed <i class="fa fa-code" aria-hidden="true"></i> by Aadarsha Acharya <br>
+                   <a> www.adarshaacharya.com.np</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--Jquery JS-->
+    <script src="vendor/jquery-3.3.1.min.js"></script>
+
+    <!--Bootstrap JS-->
+    <script src="vendor/bootstrap.min.js"></script>
+
+    <!--Popper JS-->
+    <script src="vendor/popper.min.js"></script>
+
+   <!--Custom JS -->
+   <script type ="text/javascript" src="js/custom.js"></script>
+
+
+</body>
+ 
+</html>

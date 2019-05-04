@@ -1,0 +1,97 @@
+/*DIGITAL CLOCK FONT*/
+@font-face{
+  font-family:'digital-7';
+  src: url('../fonts/digital-7.ttf');
+ }
+
+
+html {
+  height: 100%;
+  width: 100%;
+  
+}
+
+#main-page {
+  background: rgb(10, 10, 10);
+  min-height: 700px;
+}
+
+.display-text h1 {
+  color: rgba(13, 253, 5, 0.829);
+  font-family: 'Amatic SC', cursive;
+  font-size: 8rem;
+
+}
+
+.btn.btn-square {
+  border-radius: 0;
+  padding: 15px;
+}
+
+#display-time,
+#stop-watch {
+  cursor: pointer;
+  font-size: 10rem;
+  font-family: 'digital-7', sans-serif;
+  color: rgb(255, 0, 0);
+
+}
+
+
+blink {
+  -webkit-animation: 3s linear infinite condemned_blink_effect;
+  animation: 3s linear infinite condemned_blink_effect;
+}
+
+@-webkit-keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+
+  50% {
+    visibility: hidden;
+  }
+
+  100% {
+    visibility: visible;
+  }
+}
+
+@keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+
+  50% {
+    visibility: hidden;
+  }
+
+  100% {
+    visibility: visible;
+  }
+}
+
+#display-date {
+  font-size: 3rem;
+  color: rgb(255, 0, 0);
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.carousel-icon {
+  width: 60px;
+  height: 400px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul li {
+  list-style: none;
+  padding: 10px 0;
+  font-size: 23px;
+  color: yellow;
+}
