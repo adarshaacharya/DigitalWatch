@@ -1,30 +1,25 @@
-
 /*
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  #display-time, #stop-watch{
+  #display-time,
+  #stop-watch {
     font-size: 7rem;
   }
 
-  #display-date{
-  
+  #display-date {
     font-size: 4rem;
   }
 
-  .carousel-icon{
-
+  .carousel-icon {
     width: 20px;
-    
   }
 
-  .display-text h1{
+  .display-text h1 {
     font-size: 7rem;
   }
-  
-  
 }
 
 /*
@@ -33,24 +28,21 @@
 */
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
-  #display-time, #stop-watch{
+  #display-time,
+  #stop-watch {
     font-size: 7rem;
   }
-  #display-date{
-        font-size: 2rem;
+  #display-date {
+    font-size: 2rem;
   }
 
-  .carousel-icon{
+  .carousel-icon {
     width: 20px;
-   
   }
-  
-.display-text h1{
-  font-size: 7rem;
-}
 
-  
+  .display-text h1 {
+    font-size: 7rem;
+  }
 }
 
 /*
@@ -59,32 +51,26 @@
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-
-  #display-time{
+  #display-time {
     font-size: 5rem;
-
     margin-bottom: 20px;
   }
 
-   #stop-watch{
-
+  #stop-watch {
     font-size: 6rem;
-    
   }
 
-  #display-date{
+  #display-date {
     font-size: 3rem;
-}
+  }
 
-.carousel-icon{
-  width: 20px;
-  
-}
+  .carousel-icon {
+    width: 20px;
+  }
 
-.display-text h1{
-  font-size: 7rem;
-}
-
+  .display-text h1 {
+    font-size: 7rem;
+  }
 }
 
 /*
@@ -93,26 +79,28 @@
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-
-  #display-time{
+  #display-time {
     font-size: 4rem;
   }
 
-  #stop-watch{
+  #stop-watch {
     font-size: 6rem;
   }
 
-  #display-date{
+  #display-date {
     font-size: 2rem;
-}
+  }
 
-.carousel-icon{
-  width: 20px;
-}
+  .carousel-icon {
+    width: 20px;
+  }
 
-.display-text h1{
-  font-size: 4rem;
-}
-
-
+  .display-text h1 {
+    font-size: 4rem;
+  }
+  /*Override bootstrap css*/
+  .pt-3,
+  .py-3 {
+    padding-top: 0rem !important;
+  }
 }
