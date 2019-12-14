@@ -1,26 +1,23 @@
 /*DIGITAL CLOCK FONT*/
-@font-face{
-  font-family:'digital-7';
-  src: url('../fonts/digital-7.ttf');
- }
-
+@font-face {
+  font-family: "digital-7";
+  src: url("../fonts/digital-7.ttf");
+}
 
 html {
   height: 100%;
   width: 100%;
-  
 }
 
 #main-page {
   background: rgb(10, 10, 10);
-  min-height: 700px;
+  min-height: 88vh;
 }
 
 .display-text h1 {
   color: rgba(13, 253, 5, 0.829);
-  font-family: 'Amatic SC', cursive;
+  font-family: "Amatic SC", cursive;
   font-size: 8rem;
-
 }
 
 .btn.btn-square {
@@ -32,11 +29,9 @@ html {
 #stop-watch {
   cursor: pointer;
   font-size: 10rem;
-  font-family: 'digital-7', sans-serif;
+  font-family: "digital-7", sans-serif;
   color: rgb(255, 0, 0);
-
 }
-
 
 blink {
   -webkit-animation: 3s linear infinite condemned_blink_effect;
@@ -76,7 +71,7 @@ blink {
   color: rgb(255, 0, 0);
   margin-top: 5px;
   margin-bottom: 10px;
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
 }
 
 .carousel-icon {
@@ -94,4 +89,8 @@ ul li {
   padding: 10px 0;
   font-size: 23px;
   color: yellow;
+}
+
+#main-footer {
+  height: 12vh;
 }
